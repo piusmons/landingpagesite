@@ -22,19 +22,7 @@ code {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overflow-y: auto;
-  background-image: linear-gradient(
-  45deg,
-  hsl(240deg 84% 12%) 0%,
-  hsl(234deg 76% 14%) 11%,
-  hsl(229deg 68% 17%) 22%,
-  hsl(223deg 61% 19%) 33%,
-  hsl(218deg 55% 21%) 44%,
-  hsl(212deg 49% 24%) 56%,
-  hsl(207deg 44% 27%) 67%,
-  hsl(201deg 38% 29%) 78%,
-  hsl(196deg 34% 32%) 89%,
-  hsl(190deg 29% 35%) 100%
-);
+  background-color: black;
   
   
   
@@ -135,4 +123,49 @@ li {
   justify-content: center;
   
 
+}
+
+/* Start of cool */
+.pageSection {
+  scroll-snap-align: center;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  width: 1400px;
+  
+
+}
+
+.coolContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.memeImage {
+  height: 250px;
+}
+
+.buttonMeme {
+  background: #e9ed23;
+  border-radius: 999px;
+  box-shadow: #b6ed11 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #040401;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-top: 10px;
 }
