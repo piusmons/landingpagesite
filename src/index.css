@@ -2,12 +2,137 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: yellow;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.siteContainer {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  background-image: linear-gradient(
+  45deg,
+  hsl(240deg 84% 12%) 0%,
+  hsl(234deg 76% 14%) 11%,
+  hsl(229deg 68% 17%) 22%,
+  hsl(223deg 61% 19%) 33%,
+  hsl(218deg 55% 21%) 44%,
+  hsl(212deg 49% 24%) 56%,
+  hsl(207deg 44% 27%) 67%,
+  hsl(201deg 38% 29%) 78%,
+  hsl(196deg 34% 32%) 89%,
+  hsl(190deg 29% 35%) 100%
+);
+  
+  
+  
+}
+
+.pageSection {
+  scroll-snap-align: center;
+  height:100vh;
+  
+
+}
+
+
+
+.Navbar {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  
+}
+
+.logo {
+  height: 50px;;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.hireButtonContainer {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.button-34 {
+  background: #e9ed23;
+  border-radius: 999px;
+  box-shadow: #b6ed11 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #040401;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+/* END OF NAVBAR */
+
+
+.pageSectionHero {
+  scroll-snap-align: center;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.heroSectionContainer {
+  height:100vh;
+  display: flex;
+  width: 1400px;
+  justify-content: space-between;
+}
+
+.heroTextContainer {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero3dContainer {
+  display: flex;
+  flex: 4;
+  flex-direction: column;
+  justify-content: center;
+  
+
 }
