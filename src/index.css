@@ -17,6 +17,35 @@ code {
 }
 
 
+
+.title
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: yellow;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: inline-block;
+      font-size: 60px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 .siteContainer {
   height: 100vh;
   scroll-snap-type: y mandatory;
@@ -65,7 +94,13 @@ li {
 }
 
 
+.button-34:hover {background-color: white;}
 
+.button-34:active {
+  background-color: yellow;
+  box-shadow: 0 5px yellow;
+  transform: translateY(4px);
+}
 
 .button-34 {
   background: #e9ed23;
@@ -87,6 +122,10 @@ li {
   width: fit-content;
   word-break: break-word;
   border: 0;
+
+
+
+
 }
 
 /* END OF NAVBAR */
@@ -141,6 +180,16 @@ li {
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  align-items: center;
+  flex:4;
+}
+
+.rightCoolContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex:2;
+  flex-direction: column;
 }
 
 .memeImage {
@@ -168,4 +217,58 @@ li {
   word-break: break-word;
   border: 0;
   margin-top: 10px;
+}
+
+.widgetBot {
+  width: 450px;
+  height: 500px;
+
+}
+
+/* Start of contact */
+
+
+.pageSectionContact {
+  scroll-snap-align: center;
+  height:100vh;
+  display: flex;
+  align-items: center;
+
+}
+
+.contactLeft {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex:2;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  width: 500px;
+}
+
+input {
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+}
+
+textarea {
+  padding: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contactRight {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex:1;
+  height: 600px;
+  margin-right: 280px;
+  
 }
