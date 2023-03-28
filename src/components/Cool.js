@@ -4,7 +4,6 @@ import WidgetBot, { API } from '@widgetbot/react-embed'
 
 
 
-
 let memeImg = ''
 
 

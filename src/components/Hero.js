@@ -14,7 +14,7 @@ export default function Hero() {
                 <div className='heroTextContainer'>
                     <h1 className='title'>Sweet.Golden.Smooth.</h1>
                     <h3>That's how development is like working with us</h3>
-                    <button class="button-34" >Click for a surprise</button>
+                    
                     
                 </div>
                 <div className='hero3dContainer'>

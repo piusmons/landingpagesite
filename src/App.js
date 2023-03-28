@@ -7,12 +7,16 @@ import Cool from "./components/Cool.js"
 
 function App() {
   return (
-    <div className='siteContainer'>
+    <>
+    <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+    <div className='siteContainer' >
+      
         <Hero/>
         <Cool/>
         <Contact/>
 
     </div>
+    </>
   );
 }
 
