@@ -1,13 +1,6 @@
 import React from 'react';  
-import {Canvas} from '@react-three/fiber';
-import { OrbitControls, Stage } from '@react-three/drei';
-import Winnie from "./Winnie"
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-
-
-
-
 
 
 export default function Contact() {
@@ -47,16 +40,6 @@ export default function Contact() {
             </div>
 
 
-            <div className="contactRight">
-                <Canvas >
-                    <Stage environment="city" intensity={.6}>
-                        <Winnie/>
-                    </Stage>
-                    <OrbitControls enableZoom={false}/>
-                </Canvas>
-
-
-            </div>
         
 
             </div>
